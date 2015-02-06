@@ -1,0 +1,39 @@
+html{
+    height:100%;
+}
+#header{
+    background-image: linear-gradient(white, gray);
+    background-size: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-indent: 0.5in;
+    text-align:justify;
+}
+
+#content{
+    
+    background-image: linear-gradient(white, gray);
+    background-size: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-indent: 0.5in;
+    text-align:justify;
+    text-shadow: 10px 5px white;
+    
+}
+
+
+h1 {
+    text-align:center;
+    background: #19A319; 
+    margin-left: inherit;
+    margin-right: inherit;
+    opacity: 
+}
+
+p{
+    margin-left: 10%;
+    margin-right:10%;
+    background: ;
+}
+
