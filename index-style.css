@@ -1,0 +1,12 @@
+html{
+    height=100%;
+    background-image: url("http://p1.pichost.me/640/39/1624273.jpg");
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-family:Franklin Gothic;
+    font-size: 50px;
+}
