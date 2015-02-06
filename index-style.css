@@ -1,6 +1,45 @@
-#drums {
-    height:200px;
-    width:auto;
+
+
+
+
+.left{
+     height:100px;
+    width:300px;
+    display:inline;
+    float:left;
+}
+.middle{
+     height:100px;
+    width:300px;
+    display:inline;
+    float:none;
+}
+.right{
+     height:100px;
+    width:300px;
+    display:inline;
+    float:right;
+}
+
+
+h3{
+    width:100%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    align-self: center;
+    vertical-align:text-top;
+    
+}
+
+td{
+    height:300px;
+    width:300px;
+    color: white;
+    text-shadow: 2px 2px gray;
+    font-size:24px;
+    text-align:center;
+    opacity: .7;
     
 }
 
@@ -15,6 +54,7 @@ body{
     background: linear-gradient(rgba(200,200,200, .5) 50%, rgba(200,200,200,0));
 }
 
+/*
 h1{
     z-index: 2;
     text-align: center;
@@ -23,35 +63,23 @@ h1{
     font-size: 50px;
     opacity:1;
 }
+*/
 
-<!--img{
-    z-index: 3;
+img{
+   
     height: 300px;
     width: auto;
-    margin-left:auto;
-    margin-right:auto;
-    display: flex;
+    align-self: center;
+    display:inline;
     border-radius:150px;
     border-color: black;
     border-width: 100px;
     opacity: 1;
-    left: -500px;
+   
         
 }
-.image{
-    position:relative;
-    width=100%;
-}
 
 
-h3{
-    color: blue;
-    text-shadow: 2px 2px white;
-    font-size:60px;
-    position: absolute;
-    top:150px;
-    width:100%;
-    text-align:center;
-    opacity: .7;
-}
--->
+
+
+
