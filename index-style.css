@@ -8,20 +8,72 @@ div{
     border:2px solid #FFFFFF;
     border-radius: 10px;
     background-color: #454545;
+    text-align: center;
 }
 
 #header{
-    height:80px;
+    height:50px;
+    width: 98%;
+    margin: auto;
+    position:fixed;
     
+}
+h2{
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: Arial;
+    color:#AAABBB;
+    font-size: 50px;
+}
+
+
+#container{
+    width: 700px;
+    height: 300px;
+    margin:auto;
+    border-style:hidden;
+    background-color: transparent;
+}
+li{
+    margin: 0px 15px 15px 15px;
+    list-style-type: none;
+    display: inline;
+    align-content: center;
+    font-family: Arial;
+    padding: 100px 10px 5px 10px;
+    background-color: gray;
+    text-align: center;
+}
+#home{
+    background-color: transparent;
+    font-size: 20px;
+    font-color: white;
+}
+#menu{
+    background-color: transparent;
+    border: 0;
+    margin: auto;
+}
+
+/* unvisited link */
+a:link {
+    color: #cdcdcd;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #cdcdcd;
+    text-decoration: none;
 }
 
 .left{
+    display: inline;
     float:left;
-    position: absolute;
     height: 300px;
     width: 300px;
     margin: 15px;
-    margin-left: 25%;
     background-color: #b22400;
     background-image: url("drums.jpg");
     background-size: 250px 250px;
@@ -31,16 +83,20 @@ div{
 }
 
 .right{
+    display: inline;
     float:right;
     height: 300px;
     width: 300px;
-    margin: 15px;
-    margin-right:25%;
+    margin:15px;
     background-color: #b22400;
     background-image: url("cropped.jpg");
     background-size: 200px 250px;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+a:hover{
+    background-color: #454545;
 }
 
 #footer{
