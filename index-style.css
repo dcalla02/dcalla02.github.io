@@ -1,85 +1,47 @@
-
-
-
-
-.left{
-     height:100px;
-    width:300px;
-    display:inline;
-    float:left;
-}
-.middle{
-     height:100px;
-    width:300px;
-    display:inline;
-    float:none;
-}
-.right{
-     height:100px;
-    width:300px;
-    display:inline;
-    float:right;
-}
-
-
-h3{
-    width:100%;
-    text-align: center;
-    vertical-align: middle;
-    text-transform: uppercase;
-    align-self: center;
-    vertical-align:text-top;
-    
-}
-
-td{
-    height:300px;
-    width:300px;
-    color: white;
-    text-shadow: 2px 2px gray;
-    font-size:24px;
-    text-align:center;
-    opacity: .7;
-    
-}
-
 html{
+    z-index: 1;
     height=100%;
     background-image: url("http://p1.pichost.me/640/39/1624273.jpg");
-    background-size: 100%;
+    background-size: 200%;
 }
 
-body{
-    height: 100%;
-    background: linear-gradient(rgba(200,200,200, .5) 50%, rgba(200,200,200,0));
+div{
+    border:2px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #454545;
 }
 
-/*
-h1{
-    z-index: 2;
-    text-align: center;
-    color:black;
-    font-family:Franklin Gothic;
-    font-size: 50px;
-    opacity:1;
+#header{
+    height:80px;
+    
 }
-*/
 
-img{
-   
+.left{
+    float:left; 
     height: 300px;
-    width: auto;
-    align-self: center;
-    display:inline;
-    border-radius:150px;
-    border-color: black;
-    border-width: 100px;
-    opacity: 1;
-   
-        
+    width: 300px;
+    margin-left: 40px;
+    background-color: #b22400;
+    background-image: url("drums.jpg");
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
+.right{
+    float:right;
+    height: 300px;
+    width: 300px;
+    margin-right: 40px;
+    background-color: #b22400;
+    background-image: url("cropped.jpg");
+    background-size: 200px 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
-
-
-
+#footer{
+    clear: both;
+    height:50px;
+}
