@@ -86,7 +86,7 @@ a:visited {
     text-align: center;
 }
 
-#resume{
+#about{
    margin: 0px 15px 15px 15px;
     list-style-type: none;
     display: inline;
@@ -104,7 +104,7 @@ a:visited {
     align-content: center;
     font-family: inherit;
     padding: 100px 10px 5px 10px;
-    background-color: gray;
+    background-color: transparent;
     text-align: center;   
 }
 
