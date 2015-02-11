@@ -17,10 +17,12 @@ div{
 }
 
 .left{
-    float:left; 
+    float:left;
+    position: absolute;
     height: 300px;
     width: 300px;
-    margin-left: 40px;
+    margin: 15px;
+    left: 40%;
     background-color: #b22400;
     background-image: url("drums.jpg");
     background-size: 250px 250px;
@@ -33,7 +35,8 @@ div{
     float:right;
     height: 300px;
     width: 300px;
-    margin-right: 40px;
+    margin: 15px;
+    right: 25%;
     background-color: #b22400;
     background-image: url("cropped.jpg");
     background-size: 200px 250px;
