@@ -18,7 +18,7 @@ div{
     margin-top:5px;
     margin-bottom: 10px;
     
-    font-family:Arial;
+    font-family:inherit;
     font-size:36px;
     color:white;
 }
@@ -27,7 +27,7 @@ li{
     list-style-type: none;
     display: inline;
     align-content: center;
-    font-family: Arial;
+    font-family: inherit;
     padding: 100px 10px 5px 10px;
     background-color: gray;
     text-align: center;
