@@ -9,6 +9,9 @@ div{
     background-color: #454545;
     text-align: center;
 }
+h1{
+    font-family: inherit;
+}
 #header{
     height:50px;
     width: 98%;
