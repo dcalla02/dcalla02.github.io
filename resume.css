@@ -11,6 +11,7 @@ div{
 }
 h1{
     font-family: inherit;
+    text-align:left;
 }
 .one{
     text-align: left;
@@ -37,9 +38,7 @@ p{
     text-align: center;
     margin-top:5px;
     margin-bottom: 10px;
-    
-    font-family:inherit;
-    font-size:36px;
+
     color:white;
 }
 /* unvisited link */
@@ -96,6 +95,10 @@ a:visited {
     background-color: gray;
     text-align: center;   
     font-size: 16px;
+}
+
+.no-bullet{
+    list-style-type: none;
 }
 
 #resume{
