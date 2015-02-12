@@ -95,6 +95,7 @@ a:visited {
     padding: 100px 10px 5px 10px;
     background-color: gray;
     text-align: center;   
+    font-size: 16px;
 }
 
 #resume{
@@ -106,5 +107,7 @@ a:visited {
     padding: 100px 10px 5px 10px;
     background-color: transparent;
     text-align: center;   
+    font-size: 24px;
+    
 }
 
